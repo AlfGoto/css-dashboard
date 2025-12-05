@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#upBar {
+  background-color: var(--background);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  box-shadow: 1px 0px 50px rgba(208, 200, 200, 0.3);
+  z-index: 100;
+
+  #languageSelector {
+    display: flex;
+    gap: 10px;
+
+    >div {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+
+      label {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2D2B2D;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      input {
+        display: none;
+      }
+    }
+
+    >div:has(input:checked) {
+      background-color: #f0f0f0;
+    }
+  }
+}
+
+#belowUpBarContent {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+#leftBar {
+  background-color: var(--background);
+  height: 100%;
+  width: 250px;
+  box-shadow: 1px 0px 50px rgba(208, 200, 200, 0.3);
+  z-index: 1;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 0px 8px;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 8px 20px 8px 30px;
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+#content {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+
+  >div {
+    display: none;
+
+    input[type="radio"] {
+      display: none;
+    }
+  }
+
+  >div:has(input:checked) {
+    display: flex;
+  }
+}
