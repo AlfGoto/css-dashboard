@@ -1,52 +1,5 @@
-label[for="dashboard"] p {
-  font-size: 0;
-  line-height: 0;
-}
-
-label[for="dashboard"] p::before {
-  content: var(--dashboard);
-  font-size: 1rem;
-  line-height: normal;
-  display: inline-block;
-}
-
-label[for="reservations"] p {
-  font-size: 0;
-  line-height: 0;
-}
-
-label[for="reservations"] p::before {
-  content: var(--reservations);
-  font-size: 1rem;
-  line-height: normal;
-  display: inline-block;
-}
-
-label[for="activities"] p {
-  font-size: 0;
-  line-height: 0;
-}
-
-label[for="activities"] p::before {
-  content: var(--activities);
-  font-size: 1rem;
-  line-height: normal;
-  display: inline-block;
-}
-
-label[for="employees"] p {
-  font-size: 0;
-  line-height: 0;
-}
-
-label[for="employees"] p::before {
-  content: var(--employees);
-  font-size: 1rem;
-  line-height: normal;
-  display: inline-block;
-}
-
 :root:has(#fr:checked) {
+  --language: "fr";
   --dashboard: "Dashboard";
   --reservations: "Réservations";
   --activities: "Activités";
@@ -54,6 +7,7 @@ label[for="employees"] p::before {
 }
 
 :root:has(#en:checked) {
+  --language: "en";
   --dashboard: "Dashboard";
   --reservations: "Reservations";
   --activities: "Activities";
@@ -61,8 +15,22 @@ label[for="employees"] p::before {
 }
 
 :root:has(#es:checked) {
+  --language: "es";
   --dashboard: "Dashboard";
   --reservations: "Reservations";
   --activities: "Actividades";
   --employees: "Empleados";
+}
+
+label[for="dashboard"] p::before {
+  content: var(--dashboard);
+}
+label[for="reservations"] p::before {
+  content: var(--reservations);
+}
+label[for="activities"] p::before {
+  content: var(--activities);
+}
+label[for="employees"] p::before {
+  content: var(--employees);
 }
