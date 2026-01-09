@@ -4,6 +4,38 @@
   --reservations: "Réservations";
   --activities: "Activités";
   --employees: "Employés";
+  --team-members-title: "Membres de l'équipe";
+  --team-members-description: "Gérez les membres de l'équipe et leur accès à votre tableau de bord";
+  --add-team-member-title: "Ajouter un membre d'équipe";
+  --add-team-member-description: "Ajoutez un nouveau membre à votre équipe. Il recevra une invitation par email.";
+  --email-address-label: "Adresse email";
+  --email-placeholder: "collegue@example.com";
+  --add-button: "Ajouter";
+  /* Dashboard page */
+  --dashboard-title: "Tableau de bord";
+  --statistics-title: "Statistiques";
+  --statistics-description: "Suivez vos indicateurs de performance au fil du temps";
+  --week-tab: "Semaine";
+  --month-tab: "Mois";
+  --year-tab: "Année";
+  --booking-requests-title: "Vos demandes de réservation";
+  --accepted-plural: "Acceptées";
+  --refused-plural: "Refusées";
+  --expired-plural: "Expirées";
+  --lost-requests: "demandes perdues";
+  --accepted-singular: "Acceptée";
+  --refused-singular: "Refusée";
+  --expired-singular: "Expirée";
+  --news-title: "Actualités";
+  --news-description: "Restez informé et connecté avec Sezame";
+  --spabooker-title: "Nouvelle intégration : SpaBooker est maintenant disponible";
+  --spabooker-subtitle: "Gagnez du temps avec une synchronisation fluide";
+  --spabooker-description: "Connectez votre système de réservation SpaBooker en un clic. Vos disponibilités se mettent à jour automatiquement, sans intervention manuelle.";
+  --contact-us-button: "Contactez-nous";
+  --referral-title: "Votre réseau a du prestige : £300 par hôtel recommandé";
+  --referral-subtitle: "Vous connaissez un hôtel qui correspond à l'esprit Sezame ?";
+  --referral-description: "Recommandez-le : pour chaque hôtel parrainé qui nous rejoint, vous recevez £300 en carte cadeau";
+  --sponsor-hotel-button: "Parrainer un hôtel";
 }
 
 :root:has(#en:checked) {
@@ -12,6 +44,38 @@
   --reservations: "Reservations";
   --activities: "Activities";
   --employees: "Employees";
+  --team-members-title: "Team Members";
+  --team-members-description: "Manage team members and their access to your dashboard";
+  --add-team-member-title: "Add Team Member";
+  --add-team-member-description: "Add a new member to your team. They will receive an email invitation.";
+  --email-address-label: "Email Address";
+  --email-placeholder: "colleague@example.com";
+  --add-button: "Add";
+  /* Dashboard page */
+  --dashboard-title: "Dashboard";
+  --statistics-title: "Statistics";
+  --statistics-description: "Track your performance indicators over time";
+  --week-tab: "Week";
+  --month-tab: "Month";
+  --year-tab: "Year";
+  --booking-requests-title: "Your Booking Requests";
+  --accepted-plural: "Accepted";
+  --refused-plural: "Refused";
+  --expired-plural: "Expired";
+  --lost-requests: "lost requests";
+  --accepted-singular: "Accepted";
+  --refused-singular: "Refused";
+  --expired-singular: "Expired";
+  --news-title: "News";
+  --news-description: "Stay informed and connected with Sezame";
+  --spabooker-title: "New Integration: SpaBooker is now available";
+  --spabooker-subtitle: "Save time with smooth synchronization";
+  --spabooker-description: "Connect your SpaBooker booking system with one click. Your availability updates automatically, without manual intervention.";
+  --contact-us-button: "Contact Us";
+  --referral-title: "Your network has prestige: £300 per recommended hotel";
+  --referral-subtitle: "Do you know a hotel that matches the Sezame spirit?";
+  --referral-description: "Recommend it: for each sponsored hotel that joins us, you receive £300 in gift card";
+  --sponsor-hotel-button: "Sponsor a Hotel";
 }
 
 :root:has(#es:checked) {
@@ -20,6 +84,38 @@
   --reservations: "Reservations";
   --activities: "Actividades";
   --employees: "Empleados";
+  --team-members-title: "Miembros del equipo";
+  --team-members-description: "Gestiona los miembros del equipo y su acceso a tu panel";
+  --add-team-member-title: "Agregar miembro del equipo";
+  --add-team-member-description: "Agrega un nuevo miembro a tu equipo. Recibirá una invitación por correo electrónico.";
+  --email-address-label: "Dirección de correo electrónico";
+  --email-placeholder: "colega@ejemplo.com";
+  --add-button: "Agregar";
+  /* Dashboard page */
+  --dashboard-title: "Panel de control";
+  --statistics-title: "Estadísticas";
+  --statistics-description: "Sigue tus indicadores de rendimiento a lo largo del tiempo";
+  --week-tab: "Semana";
+  --month-tab: "Mes";
+  --year-tab: "Año";
+  --booking-requests-title: "Tus solicitudes de reserva";
+  --accepted-plural: "Aceptadas";
+  --refused-plural: "Rechazadas";
+  --expired-plural: "Expiradas";
+  --lost-requests: "solicitudes perdidas";
+  --accepted-singular: "Aceptada";
+  --refused-singular: "Rechazada";
+  --expired-singular: "Expirada";
+  --news-title: "Noticias";
+  --news-description: "Mantente informado y conectado con Sezame";
+  --spabooker-title: "Nueva integración: SpaBooker ya está disponible";
+  --spabooker-subtitle: "Ahorra tiempo con una sincronización fluida";
+  --spabooker-description: "Conecta tu sistema de reservas SpaBooker con un clic. Tus disponibilidades se actualizan automáticamente, sin intervención manual.";
+  --contact-us-button: "Contáctanos";
+  --referral-title: "Tu red tiene prestigio: £300 por hotel recomendado";
+  --referral-subtitle: "¿Conoces un hotel que coincida con el espíritu Sezame?";
+  --referral-description: "Recomiéndalo: por cada hotel patrocinado que se une a nosotros, recibes £300 en tarjeta regalo";
+  --sponsor-hotel-button: "Patrocinar un hotel";
 }
 
 label[for="dashboard"] p::before {
@@ -33,4 +129,498 @@ label[for="activities"] p::before {
 }
 label[for="employees"] p::before {
   content: var(--employees);
+}
+
+/* Employee page translations */
+/* Note: These selectors target elements within the employees content section */
+/* You may need to add data attributes or classes to HTML elements for more precise targeting */
+
+/* Page title */
+#content > div:has(#employees:checked) h1 {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#employees:checked) h1::before {
+  content: var(--team-members-title);
+  font-size: 1.875rem; /* text-3xl */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* First card title (Team Members) */
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-title"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-title"]::after {
+  content: var(--team-members-title);
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+}
+
+/* First card description */
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-description"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-description"]::before {
+  content: var(--team-members-description);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Second card title (Add Team Member) */
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:last-of-type
+  [data-slot="card-title"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:last-of-type
+  [data-slot="card-title"]::after {
+  content: var(--add-team-member-title);
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Second card description */
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:last-of-type
+  [data-slot="card-description"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#employees:checked)
+  [data-slot="card"]:last-of-type
+  [data-slot="card-description"]::before {
+  content: var(--add-team-member-description);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Email label */
+#content > div:has(#employees:checked) label[for="email"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#employees:checked) label[for="email"]::before {
+  content: var(--email-address-label);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Email placeholder - Note: CSS cannot set placeholder text directly */
+/* You'll need to use JavaScript to update the placeholder attribute, or set it in HTML */
+/* Example JS: document.querySelector('#email').placeholder = getComputedStyle(document.documentElement).getPropertyValue('--email-placeholder').trim().replace(/^["']|["']$/g, ''); */
+
+/* Add button */
+#content > div:has(#employees:checked) button[type="submit"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#employees:checked) button[type="submit"]::before {
+  content: var(--add-button);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Dashboard page translations */
+/* Page title */
+#content > div:has(#dashboard:checked) main h1 {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#dashboard:checked) main h1::before {
+  content: var(--dashboard-title);
+  font-size: 1.875rem; /* text-3xl */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Statistics card - first card in the flex container */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-title"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-title"]::before {
+  content: var(--statistics-title);
+  font-size: 1.25rem; /* text-xl */
+  line-height: normal;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-description"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:first-of-type
+  [data-slot="card-description"]::before {
+  content: var(--statistics-description);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Time period tabs - target by role="tab" and position */
+#content > div:has(#dashboard:checked) button[role="tab"]:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  button[role="tab"]:first-of-type::before {
+  content: var(--week-tab);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+#content > div:has(#dashboard:checked) button[role="tab"]:nth-of-type(2) {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  button[role="tab"]:nth-of-type(2)::before {
+  content: var(--month-tab);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+#content > div:has(#dashboard:checked) button[role="tab"]:last-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#dashboard:checked) button[role="tab"]:last-of-type::before {
+  content: var(--year-tab);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Booking requests card title - second card in nested structure */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card-content"]
+  [data-slot="card"]
+  [data-slot="card-title"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card-content"]
+  [data-slot="card"]
+  [data-slot="card-title"]::before {
+  content: var(--booking-requests-title);
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* Chart legend labels - target spans with text-xs class near color indicators */
+#content > div:has(#dashboard:checked) .text-xs.text-gray-500:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  .text-xs.text-gray-500:first-of-type::before {
+  content: var(--accepted-singular);
+  font-size: 0.75rem; /* text-xs */
+  line-height: normal;
+  display: inline-block;
+}
+
+#content > div:has(#dashboard:checked) .text-xs.text-gray-500:nth-of-type(2) {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  .text-xs.text-gray-500:nth-of-type(2)::before {
+  content: var(--refused-singular);
+  font-size: 0.75rem; /* text-xs */
+  line-height: normal;
+  display: inline-block;
+}
+
+#content > div:has(#dashboard:checked) .text-xs.text-gray-500:last-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  .text-xs.text-gray-500:last-of-type::before {
+  content: var(--expired-singular);
+  font-size: 0.75rem; /* text-xs */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Lost requests text - target div with text-sm class in foreignObject */
+#content > div:has(#dashboard:checked) foreignObject div.text-sm {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content > div:has(#dashboard:checked) foreignObject div.text-sm::before {
+  content: var(--lost-requests);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* News card - second card in the main flex container */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  [data-slot="card-title"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  [data-slot="card-title"]::before {
+  content: var(--news-title);
+  font-size: 1.25rem; /* text-xl */
+  line-height: normal;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  [data-slot="card-description"] {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  [data-slot="card-description"]::before {
+  content: var(--news-description);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* SpaBooker news item - first h3 in news card */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h3:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h3:first-of-type::before {
+  content: var(--spabooker-title);
+  font-size: 1.125rem; /* text-lg */
+  line-height: normal;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h4:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h4:first-of-type::before {
+  content: var(--spabooker-subtitle);
+  font-size: 1rem; /* text-base */
+  line-height: normal;
+  display: inline-block;
+  font-weight: 500;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  p:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  p:first-of-type::before {
+  content: var(--spabooker-description);
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Contact us button - first button in news card */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  button:first-of-type {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  button:first-of-type::before {
+  content: var(--contact-us-button);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Referral news item - second h3 in news card */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h3:nth-of-type(2) {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h3:nth-of-type(2)::before {
+  content: var(--referral-title);
+  font-size: 1.125rem; /* text-lg */
+  line-height: normal;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h4:nth-of-type(2) {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  h4:nth-of-type(2)::before {
+  content: var(--referral-subtitle);
+  font-size: 1rem; /* text-base */
+  line-height: normal;
+  display: inline-block;
+  font-weight: 500;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  p:nth-of-type(2) {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  p:nth-of-type(2)::before {
+  content: var(--referral-description);
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+}
+
+/* Sponsor hotel button - second button in news card */
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  button:nth-of-type(2),
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  a
+  button {
+  font-size: 0;
+  line-height: 0;
+}
+
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  button:nth-of-type(2)::before,
+#content
+  > div:has(#dashboard:checked)
+  [data-slot="card"]:nth-of-type(2)
+  a
+  button::before {
+  content: var(--sponsor-hotel-button);
+  font-size: 0.875rem; /* text-sm */
+  line-height: normal;
+  display: inline-block;
 }

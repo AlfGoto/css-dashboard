@@ -1,0 +1,209 @@
+:root {
+  /* Base color palette */
+  --color-red-50: lab(96.5005% 4.18508 1.52328);
+  --color-red-200: lab(86.017% 19.8815 7.75869);
+  --color-red-500: lab(55.4814% 75.0732 48.8528);
+  --color-red-700: lab(40.4273% 67.2623 53.7441);
+  --color-yellow-600: lab(62.7799% 22.4197 86.1544);
+  --color-green-500: lab(70.5521% -66.5147 45.8073);
+  --color-emerald-600: lab(55.0481% -49.9246 15.93);
+  --color-blue-50: lab(96.492% -1.14644 -5.11479);
+  --color-blue-200: lab(86.15% -4.04379 -21.0797);
+  --color-blue-500: lab(54.1736% 13.3369 -74.6839);
+  --color-blue-600: lab(44.0605% 29.0279 -86.0352);
+  --color-blue-700: lab(36.9089% 35.0961 -85.6872);
+  --color-gray-50: lab(98.2596% -0.247031 -0.706708);
+  --color-gray-100: lab(96.1596% -0.0823438 -1.13575);
+  --color-gray-200: lab(91.6229% -0.159115 -2.26791);
+  --color-gray-300: lab(85.1236% -0.612259 -3.7138);
+  --color-gray-400: lab(65.9269% -0.832707 -8.17473);
+  --color-gray-500: lab(47.7841% -0.393182 -10.0268);
+  --color-gray-600: lab(35.6337% -1.58697 -10.8425);
+  --color-gray-700: lab(27.1134% -0.956401 -12.3224);
+
+  /* Sezame brand colors */
+  --sezame-black: lab(9.61861% -2.10388 1.61708);
+  --sezame-white: lab(98.9078% -0.340849 4.15001);
+  --sezame-beige: lab(96.5186% 1.88741 5.19502);
+  --sezame-dark-beige: lab(88.2881% 3.65016 8.96508);
+
+  /* Semantic colors */
+  --color-info: lab(86.2333% -11.5711 -19.1283);
+  --color-destructive: lab(61.0449% 54.1514 18.9248);
+  --color-link-info: lab(70.7872% -22.2928 -44.6206);
+  --color-warning: lab(89.8397% 4.62785 41.1605);
+  --color-error: lab(61.0449% 54.1514 18.9248);
+  --color-success-foreground: lab(88.113% -21.6659 6.28281);
+  --color-success: lab(91.5974% -17.7862 18.9616);
+  --color-old-secondary: lab(40.9954% 28.5029 6.0959);
+
+  /* Muted colors */
+  --muted: lab(0% 0 0 / 0.12);
+  --muted-foreground: lab(0% 0 0 / 0.4);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  /* Theme colors */
+  --color-background: var(--sezame-white);
+  --color-foreground: var(--sezame-black);
+  --color-primary: var(--sezame-black);
+  --color-primary-foreground: var(--sezame-white);
+  --color-card: white;
+  --color-card-foreground: var(--sezame-black);
+  --color-border: var(--sezame-dark-beige);
+  --color-input: var(--color-gray-200);
+  --color-ring: var(--sezame-dark-beige);
+  --color-accent: var(--sezame-beige);
+  --color-accent-foreground: var(--sezame-black);
+  --color-destructive-foreground: var(--sezame-white);
+
+  /* Shadow */
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+  /* Radius */
+  --radius: 16px;
+  --radius-lg: var(--radius);
+
+  /* Legacy variable names for compatibility */
+  --background: var(--color-background);
+  --foreground: var(--color-foreground);
+  --card: var(--color-card);
+  --card-foreground: var(--color-card-foreground);
+  --input: var(--color-input);
+  --border: var(--color-border);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-primary-foreground);
+  --destructive: var(--color-destructive);
+  --destructive-foreground: var(--color-destructive-foreground);
+  --info: var(--color-info);
+  --ring: var(--color-ring);
+  --accent: var(--color-accent);
+  --accent-foreground: var(--color-accent-foreground);
+}
+
+flex {
+  display: flex;
+}
+
+/* Utility classes for custom colors */
+.bg-card {
+  background-color: var(--color-card);
+}
+
+.text-card-foreground {
+  color: var(--color-card-foreground);
+}
+
+.border-input {
+  border-color: var(--color-input);
+}
+
+.text-muted-foreground {
+  color: var(--color-muted-foreground);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary-foreground {
+  color: var(--color-primary-foreground);
+}
+
+.text-destructive {
+  color: var(--color-destructive);
+}
+
+.hover\:text-destructive\/80:hover {
+  color: rgba(237, 101, 117, 0.8); /* #ed6575 at 80% opacity */
+}
+
+.hover\:bg-destructive\/10:hover {
+  background-color: rgba(237, 101, 117, 0.1); /* #ed6575 at 10% opacity */
+}
+
+.bg-info {
+  background-color: var(--color-info);
+}
+
+.shadow-xs {
+  box-shadow: var(--shadow-xs);
+}
+
+/* Gap utility classes */
+.gap-0 {
+  gap: 0;
+}
+
+.gap-1 {
+  gap: 0.25rem; /* 4px */
+}
+
+.gap-1\.5 {
+  gap: 0.375rem; /* 6px */
+}
+
+.gap-2 {
+  gap: 0.5rem; /* 8px */
+}
+
+.gap-3 {
+  gap: 0.75rem; /* 12px */
+}
+
+.gap-4 {
+  gap: 1rem; /* 16px */
+}
+
+.gap-6 {
+  gap: 1.5rem; /* 24px */
+}
+
+.gap-8 {
+  gap: 2rem; /* 32px */
+}
+
+.gap-10 {
+  gap: 2.5rem; /* 40px */
+}
+
+.gap-12 {
+  gap: 3rem; /* 48px */
+}
+
+/* Space-y utility classes (vertical spacing between children) */
+.space-y-0 > * + * {
+  margin-top: 0;
+}
+
+.space-y-1 > * + * {
+  margin-top: 0.25rem; /* 4px */
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem; /* 8px */
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem; /* 12px */
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem; /* 16px */
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem; /* 24px */
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem; /* 32px */
+}
+
+.space-y-10 > * + * {
+  margin-top: 2.5rem; /* 40px */
+}
+
+.space-y-12 > * + * {
+  margin-top: 3rem; /* 48px */
+}
